@@ -43,22 +43,22 @@ contact: Displays contact information.
 
 1) GUI Setup:
 
-The main window contains two frames for:
-New user registration.
-Attendance tracking for existing users.
+    The main window contains two frames for:
+    New user registration.
+    Attendance tracking for existing users.
 
 2) New User Registration:
 
-Users enter their ID and name.
-The system captures facial images and stores them in TrainingImage.
-Profile is saved by training a facial recognizer model.
+    Users enter their ID and name.
+    The system captures facial images and stores them in TrainingImage.
+    Profile is saved by training a facial recognizer model.
 
 3) Taking Attendance:
 
-Captures live video feed.
-Detects faces in the feed.
-Matches faces with the trained model and logs attendance.
+    Captures live video feed.
+    Detects faces in the feed.
+    Matches faces with the trained model and logs attendance.
 
 4) TreeView Display:
 
-Displays a list of users and their attendance information in the GUI.
+    Displays a list of users and their attendance information in the GUI.
