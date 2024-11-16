@@ -12,27 +12,33 @@ TECHNOLOGY USED:
 # Key Features:
 
 1) Password Management:
-        Allows setting, updating, and verifying passwords stored in a text file (psd.txt).
+
+      Allows setting, updating, and verifying passwords stored in a text file (psd.txt).
 
 2) User Registration:
+
         Facilitates capturing facial images for new users.
         Stores images in the TrainingImage directory.
         Saves user details (ID and name) in a CSV file.
 
-4) Face Recognition:
+3) Face Recognition:
+
         Uses the Local Binary Patterns Histogram (LBPH) algorithm to train the system for recognizing faces.
         Trained data is saved as Trainner.yml.
 
-5) Attendance Tracking:
+4) Attendance Tracking:
+
         Recognizes faces using the webcam.
         Marks attendance in a CSV file (Attendance_<date>.csv) with details like date and time.
 
-6) Graphical User Interface (GUI):
+5) Graphical User Interface (GUI):
+
         Built using Tkinter with frames, buttons, and labels.
         Displays attendance logs using a TreeView widget.
         Provides options to register new users, take attendance, and manage passwords.
 
-7) Utility Functions:
+6) Utility Functions:
+
         assure_path_exists: Ensures required directories exist.
         check_haarcascadefile: Verifies the presence of the Haar cascade XML file.
         tick: Updates the clock displayed in the GUI.
