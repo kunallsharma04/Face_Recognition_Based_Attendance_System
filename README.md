@@ -9,7 +9,7 @@ TECHNOLOGY USED:
 2) OpenCV for taking images and face recognition (cv2.face.LBPHFaceRecognizer_create())
 3) CSV, Numpy, Pandas, datetime etc. for other purposes.
 
-Key Features:
+# Key Features:
 
 1) Password Management:
 Allows setting, updating, and verifying passwords stored in a text file (psd.txt).
@@ -39,7 +39,8 @@ tick: Updates the clock displayed in the GUI.
 contact: Displays contact information.
 
 
-How It Works:
+# How It Works:
+
 1) GUI Setup:
 
 The main window contains two frames for:
