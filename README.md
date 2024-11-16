@@ -9,9 +9,32 @@ TECHNOLOGY USED:
 2) OpenCV for taking images and face recognition (cv2.face.LBPHFaceRecognizer_create())
 3) CSV, Numpy, Pandas, datetime etc. for other purposes.
 
-FEATURES:
-1) Easy to use with interactive GUI support.
-2) Password protection for new person registration.
-3) Creates/Updates CSV file for details of students on registration.
-4) Creates a new CSV file everyday for attendance and marks attendance with proper date and time.
-5) Displays live attendance updates for the day on the main screen in tabular format with Id, name, date and time.
+Key Features:
+
+1) Password Management:
+
+Allows setting, updating, and verifying passwords stored in a text file (psd.txt).
+2) User Registration:
+
+Facilitates capturing facial images for new users.
+Stores images in the TrainingImage directory.
+Saves user details (ID and name) in a CSV file.
+3) Face Recognition:
+
+Uses the Local Binary Patterns Histogram (LBPH) algorithm to train the system for recognizing faces.
+Trained data is saved as Trainner.yml.
+4) Attendance Tracking:
+
+Recognizes faces using the webcam.
+Marks attendance in a CSV file (Attendance_<date>.csv) with details like date and time.
+5) Graphical User Interface (GUI):
+
+Built using Tkinter with frames, buttons, and labels.
+Displays attendance logs using a TreeView widget.
+Provides options to register new users, take attendance, and manage passwords.
+6) Utility Functions:
+
+assure_path_exists: Ensures required directories exist.
+check_haarcascadefile: Verifies the presence of the Haar cascade XML file.
+tick: Updates the clock displayed in the GUI.
+contact: Displays contact information.
