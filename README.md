@@ -8,6 +8,7 @@ TECHNOLOGY USED:
 tkinter for whole GUI
 OpenCV for taking images and face recognition (cv2.face.LBPHFaceRecognizer_create())
 CSV, Numpy, Pandas, datetime etc. for other purposes.
+
 FEATURES:
 
 Easy to use with interactive GUI support.
