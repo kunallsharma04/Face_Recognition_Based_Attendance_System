@@ -13,8 +13,7 @@ TECHNOLOGY USED:
 
 1) Password Management:
 
-
-      Allows setting, updating, and verifying passwords stored in a text file (psd.txt).
+        Allows setting, updating, and verifying passwords stored in a text file (psd.txt).
 
 2) User Registration:
 
